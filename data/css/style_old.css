@@ -1,0 +1,27 @@
+@font-face {
+    font-family: selawik;
+    src: url(/fonts/selawk.ttf);
+
+    font-family: selawik-bold;
+    src: url(/fonts/selawkb.ttf);
+  }
+
+body {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.darkTheme{
+    background-color: #2E3440;
+    color: #ffffff;
+}
+
+p, a, h1, h2, h3{
+    font-family: selawik;
+}
+
+h1 {
+    font-style: italic;
+    text-decoration: underline;
+    color: #ff6666;
+}

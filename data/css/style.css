@@ -1,27 +1,79 @@
-@font-face {
-    font-family: selawik;
-    src: url(/fonts/selawk.ttf);
-
-    font-family: selawik-bold;
-    src: url(/fonts/selawkb.ttf);
-  }
-
-body {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.darkTheme{
+body
+{
     background-color: #2E3440;
-    color: #ffffff;
 }
 
-p, a, h1, h2, h3{
-    font-family: selawik;
+p, a
+{
+    font-family: "SelawikRegular";
 }
 
-h1 {
-    font-style: italic;
-    text-decoration: underline;
-    color: #ff6666;
+h1, h2, h3
+{
+    font-family: "SelawikBold";
+}
+
+p#jsWarning
+{
+    margin: 0px;
+    color: #D08770;
+    font-size: x-large;
+}
+
+hr#jsWarningSeparator
+{
+    border: dotted;
+}
+
+#main
+{
+    margin: 40px 40px 40px 40px;
+}
+
+img#menuBarImage
+{
+    vertical-align: bottom;
+    height: 100px;
+}
+
+#titleThingy
+{
+    display: inline-block;
+}
+
+#navBar
+{
+    display: inline-block;
+}
+
+h1#mainTitle
+{
+    margin: 0px 0px 0px 10px;
+    display: inline;
+    font-style: bold;
+    color: #C1DFFF;
+}
+
+p#mainSubtitle
+{
+    margin: 0px 0px 0px 10px;
+    padding-bottom: 2px;
+    font-size: 20px;
+    color: #95ACC5;
+}
+
+hr#menuBarSeparator
+{
+    border: none;
+    height: 1px;
+    color: #95ACC5;
+    background-color: #95ACC5;
+    margin: 0px 0px 0px 0px;
+}
+
+h1#construct
+{
+    color: #D08770;
+    margin-top: 100px;
+    text-align: center;
 }
